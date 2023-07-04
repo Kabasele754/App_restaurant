@@ -1,5 +1,5 @@
 """
-ASGI config for restorant project.
+ASGI config for parameter project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'restorant.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'parameter.settings')
 
 application = get_asgi_application()
