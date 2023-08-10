@@ -48,7 +48,8 @@ INSTALLED_APPS = [
     # mes apps
     'app_food.apps.AppFoodConfig',
     'app_user.apps.AppUserConfig',
-    'app_employer_admin.apps.AppEmployerAdminConfig'
+    'app_employer_admin.apps.AppEmployerAdminConfig',
+    'app_client_client.apps.AppClientClientConfig'
     # 'app_food'
 ]
 
